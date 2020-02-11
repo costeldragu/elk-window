@@ -1,0 +1,1 @@
+TOMCAT_LOG %{DATA:user} %{DATA:type} %{TIMESTAMP_ISO8601:timestamp} %{IP:client} - - %{WORD:method} %{URIPATHPARAM:request}(?: HTTP/%{NUMBER:httpversion}) %{NUMBER:http_status} %{NUMBER:bytes} %{NUMBER:responsetime}
